@@ -9,8 +9,8 @@ const Post = (props)=> {
         <div className="container">            
             <Row sm="3" className="row">              
                 <Col sm="4" className="col">  
-                    <div className="main-content">
-                        
+                    <div>
+                        <div>
                         <div className="image"> 
                             <img src={"images/" + props.gambar} alt=""></img>
                          </div>              
@@ -18,7 +18,7 @@ const Post = (props)=> {
                             <h5 className="deskripsi"> {props.deskripsi} </h5>
                             <h3 className="harga"> {props.harga} </h3>
                             <Button variant="primary">Beli</Button>
-                    
+                        </div> 
                     </div>                  
                 </Col>                                                       
             </Row>
