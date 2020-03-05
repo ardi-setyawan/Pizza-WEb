@@ -1,0 +1,5 @@
+.main-row{
+    display: flex;
+    justify-content: between;
+    flex :wrap;
+}

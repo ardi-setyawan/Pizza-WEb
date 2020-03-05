@@ -1,14 +1,30 @@
+.container {
+    height:auto;
+    width : 1000px;
+}
+
+
 .main-content{
-    background-color: red;
+    background-color: aquamarine;
     border: 2px solid black;
-    height: 450px;
-    width: 330px;
-    margin: 2px;
+    height: 460px;
+    width: 300px;
+    margin: 5px;
     padding-top: 2px;
     text-align: center;
     display: inline-block;
+    float: left;
+
 }
 
-.image {
-    margin-top: 0;
+img {
+    margin-top: 2px;
+    height: 200px;
+    width: 280px;
+    align-content: center;
+}
+
+.beli {
+    text-align: center;
+
 }

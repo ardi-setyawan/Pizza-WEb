@@ -9,9 +9,9 @@ class Header extends Component{
                     <Navbar.Brand href="#home">CemoroPizza</Navbar.Brand>
                     <Nav className="mr-auto">
                     <Nav.Link href="#home">All Menu</Nav.Link>
-                    <Nav.Link href="#features">Pizza</Nav.Link>
-                    <Nav.Link href="#pricing">Minuman</Nav.Link>
-                    <Nav.Link href="#pricing">Nasi</Nav.Link>
+                    <Nav.Link href="#pizza">Pizza</Nav.Link>
+                    <Nav.Link href="#minuman">Minuman</Nav.Link>
+                    <Nav.Link href="#nasi">Nasi</Nav.Link>
                     </Nav>
                     <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />

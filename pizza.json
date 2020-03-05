@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": 0,
       "title": "json-server",
       "author": "typicode"
     }
@@ -9,7 +9,7 @@
 
   "menu": [
     {
-        "id":true,
+        "id":1,
         "kategori": "pizza",
         "nama": "Meat Lover",
         "deskripsi": "Irisan sosis sapi, daging sapi cincang, burger sapi, sosis ayam.",
@@ -17,6 +17,7 @@
         "gambar": "meat-lover.jpg"
     },
     {
+        "id":2,
         "kategori": "pizza",
         "nama": "Super Supreme",
         "deskripsi": "Daging ayam dan sapi asap, daging sapi cincang, burger sapi, jamur, paprika merah dan paprika hijau.",
@@ -24,6 +25,7 @@
         "gambar": "supreme.jpg"
     },
     {
+        "id":3,
         "kategori": "pizza",
         "nama": "Tuna Melt",
         "deskripsi": "Irisan daging ikan tuna, butiran jagung, saus mayonnaise.",
@@ -31,6 +33,7 @@
         "gambar": "tuna-melt.jpg"
     },
     {
+        "id":4,
         "kategori": "pizza",
         "nama": "American Favourite",
         "deskripsi": "Pepperoni sapi, daging sapi cincang, jamur.",
@@ -38,6 +41,7 @@
         "gambar": "american-favourite.jpg"
     },
     {
+        "id":5,
         "kategori": "pasta",
         "nama": "Beef Spaghetti",
         "deskripsi": "Pepperoni sapi, daging sapi cincang, jamur.",
@@ -45,6 +49,7 @@
         "gambar": "beef-spaghetti.jpg"
     },
     {
+        "id":6,
         "kategori": "pasta",
         "nama": "Beef Lasagna",
         "deskripsi": "Dipanggang, daging sapi cincang. krim putih lembut di tiap lapisan.",
@@ -52,6 +57,7 @@
         "gambar": "beef-lasagna.jpg"
     },
     {
+        "id":7,
         "kategori": "pasta",
         "nama": "Creamy Beef Fettuccine",
         "deskripsi": "Daging sapi asap dan jamur, ditumis dengan saus krim lembut.",
@@ -59,6 +65,7 @@
         "gambar": "creamy-beef-fettuccine.jpg"
     },
     {
+        "id":8,
         "kategori": "nasi",
         "nama": "Meatballs Beef Mushroom",
         "deskripsi": "Bola daging sapi dengan saus daging sapi cincang dan jamur.",
@@ -66,6 +73,7 @@
         "gambar": "meatballs-beef-mushroom.jpg"
     },
     {
+        "id":9,
         "kategori": "nasi",
         "nama": "Black Pepper Chicken",
         "deskripsi": "Ayam dengan saus lada hitam.",
@@ -73,6 +81,7 @@
         "gambar": "black-pepper-chicken.jpg"
     },
     {
+        "id":10,
         "kategori": "nasi",
         "nama": "Oriental Chicken",
         "deskripsi": "Daging ayam berpadu dengan saus oriental.",
@@ -80,6 +89,7 @@
         "gambar": "oriental-chicken.jpg"
     },
     {
+        "id":11,
         "kategori": "minuman",
         "nama": "Choco Mint",
         "deskripsi": "",
@@ -87,6 +97,7 @@
         "gambar": "choco-mint.jpg"
     },
     {
+        "id":12,
         "kategori": "minuman",
         "nama": "Toffee Coffee",
         "deskripsi": "",
@@ -94,6 +105,7 @@
         "gambar": "toffee-coffee.jpg"
     },
     {
+        "id":13,
         "kategori": "minuman",
         "nama": "Green Tea Shake",
         "deskripsi": "",
@@ -101,6 +113,7 @@
         "gambar": "green-tea-shake.jpg"
     },
     {
+        "id":14,
         "kategori": "minuman",
         "nama": "Strawberry Milkshake",
         "deskripsi": "",
@@ -108,6 +121,7 @@
         "gambar": "strawberry-milkshake.jpg"
     },
     {
+        "id":15,
         "kategori": "minuman",
         "nama": "Chocolate Milkshake",
         "deskripsi": "",
@@ -116,5 +130,4 @@
     }
 ]
   
-
 }
