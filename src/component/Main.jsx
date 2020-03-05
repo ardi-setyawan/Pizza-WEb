@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import {Card, Button} from 'react-bootstrap';
-import {Container, Col, Row, Button} from 'react-bootstrap';
+import {Container, Col, Row} from 'react-bootstrap';
 import './Maincss.css';
 import axios from 'axios';
 import Post from './Post';
@@ -34,7 +34,7 @@ class Main extends Component{
                                return <Post key={post.id} kategori={post.kategori} deskripsi={post.deskripsi} harga={post.harga} gambar={post.gambar} />
                            })
                        }
-                        <Button variant="primary">Beli</Button>
+                      
                     </div>
                 </Col>                
             </Row>
