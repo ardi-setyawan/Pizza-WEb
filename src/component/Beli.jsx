@@ -1,29 +1,17 @@
 import React from 'react'
-import './component/Header.jsx';
+// import Header from './Header.jsx';
 
 
-class Beli extends Component {
-
-    state= {
-        post = []
-    }
-
-    render(){
-        return (
-           <Beli 
-            id={post.id}
-            nama={post.nama}
-            deskripsi={post.deskripsi}
-            kategori={post.kategori}
-           />
+    const Beli = (props)=> {
+        return (       
+       
+            <div className="main-content">
+                <h2 className="nama"> {props.nama} </h2>               
+                        <img src={"images/" + props.gambar} alt=""></img>   
+                <h5 className="deskripsi"> {props.deskripsi} </h5>
+                <h3 className="harga"> {props.harga} </h3>
+            </div>     
         )
-
-    }
-   
-
-
-
-
 
 
     // constructor(props) {
